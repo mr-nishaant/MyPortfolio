@@ -9,7 +9,7 @@ function About() {
         className="max-w-screen-xl mx-auto px-6 md:px-10 lg:px-16 py-16 pt-20 "
       >
         <div className=" bg-white p-8 rounded-2xl shadow-2xl shadow-red-600">
-          {/* About Section */}
+
           <div className="text-center mb-12">
             <h1 className="text-3xl md:text-4xl font-extrabold text-gray-900 mb-4">About Me</h1>
             <p className="text-base md:text-lg text-gray-600">
@@ -17,9 +17,9 @@ function About() {
             </p>
           </div>
     
-          {/* Two-Column Layout for Education and Skills */}
+
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
-            {/* Education Section */}
+
             <div>
               <h1 className="text-green-500 font-bold text-xl mb-4 flex items-center">
                 <FaGraduationCap className="mr-2" /> Education
@@ -35,7 +35,7 @@ function About() {
               </div>
             </div>
     
-            {/* Skills & Expertise Section */}
+
             <div>
               <h1 className="text-green-500 font-bold text-xl mb-4 flex items-center">
                 <FaCode className="mr-2" /> Skills & Expertise
@@ -48,7 +48,7 @@ function About() {
             </div>
           </div>
     
-          {/* Professional Experience Section */}
+
           <div className="mb-12">
             <h1 className="text-green-500 font-bold text-xl mb-4 flex items-center">
               <FaBriefcase className="mr-2" /> Professional Experience
@@ -69,7 +69,7 @@ function About() {
             </div>
           </div>
     
-          {/* Certifications Section */}
+
           <div>
             <h1 className="text-green-500 font-bold text-xl mb-4 flex items-center">
               <FaCertificate className="mr-2" /> Certifications & Training

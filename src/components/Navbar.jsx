@@ -49,7 +49,6 @@ function Navbar() {
           </NavLink>
 
 
-          {/* desktop navbar */}
           <div>
             <ul className="hidden md:flex space-x-8">
               {navItems.map(({ id, text }) => (
