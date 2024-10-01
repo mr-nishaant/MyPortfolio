@@ -4,6 +4,22 @@ function Projects() {
   const cardItem = [
     {
       id: 1,
+      logo: "/portfolio.png",
+      name: "ShowCaseMe",
+      details: "A Personal Portfolio Website",
+      link: 'https://nishaant.netlify.app/',
+      code: "https://github.com/mr-nishaant/MyPortfolio",
+    },
+    {
+      id: 2,
+      logo: "/currency.png",
+      name: "CashFlipper",
+      details: "A Realtime Currency Converter",
+      link: 'https://currencyconvt.netlify.app/',
+      code: "https://github.com/mr-nishaant/currencyConverter",
+    },
+    {
+      id: 3,
       logo: "https://cdn-icons-png.flaticon.com/512/9584/9584876.png",
       name: "Mausam",
       details: "A Weather Forecasting Website",
@@ -11,29 +27,15 @@ function Projects() {
       code: "google.com",
     },
     {
-      id: 2,
+      id: 4,
       logo: "https://cdn-icons-png.flaticon.com/512/9584/9584876.png",
       name: "Mood",
       details: "An Online Music Player",
       link: 'https://example.com',
       code: "",
     },
-    {
-      id: 3,
-      logo: "https://cdn-icons-png.flaticon.com/512/9584/9584876.png",
-      name: "CashFlipper",
-      details: "A Realtime Currency Converter",
-      link: 'https://example.com',
-      code: "",
-    },
-    {
-      id: 4,
-      logo: "https://cdn-icons-png.flaticon.com/512/9584/9584876.png",
-      name: "ShowCaseMe",
-      details: "A Personal Portfolio Website",
-      link: 'https://example.com',
-      code: "",
-    },
+    
+    
   ];
 
   const handleLinkClick = (url) => {
@@ -58,7 +60,7 @@ function Projects() {
               <div className="flex justify-center">
               <img
                 src={logo}
-                className="w-[120px] h-[120px] p-1 border-[2px] "
+                className="w-[213px] h-[140px] p-1 border-[2px] "
                 alt={name}
               />
               </div>
