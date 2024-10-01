@@ -31,7 +31,7 @@ function Projects() {
       logo: "https://cdn-icons-png.flaticon.com/512/9584/9584876.png",
       name: "Mood",
       details: "An Online Music Player",
-      link: 'https://example.com',
+      link: '',
       code: "",
     },
     
