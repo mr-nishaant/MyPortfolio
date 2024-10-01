@@ -6,37 +6,54 @@ function Home() {
     <>
       <div
         name="Home"
-        className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-28"
+        className="min-h-screen bg-gradient-to-r from-red-500 via-red-600 to-red-700 flex items-center px-4"
       >
-        <div className="flex flex-col md:flex-row">
-          <div className="md:w-1/2 mt-12 md:mt-24 space-y-2 order-2 md:order-1">
-            <span className="text-xl">Welcome In My Feed</span>
-            <div className="flex space-x-1 text-2xl md:text-4xl">
-              <h1>Hello, I'm a</h1>
-              <ReactTyped
-                className="text-red-700 font-bold"
-                strings={["Developer", "Programmer", "Coder"]}
-                typeSpeed={40}
-                backSpeed={50}
-                loop={true}
-              />
-            </div>
-            <br />
-            <p className="text-m md:text-md text-justify">
-            I am a recent B-Tech graduate in Computer Science & Engineering from Netaji Subhas Institute of Technology, I have a strong foundation in Java, C/C++, JavaScript, ReactJS, HTML, CSS, and MySQL. My technical background is supported by internships where I gained hands-on experience in Java programming and Android development.
+        <div className="container mx-auto flex flex-col md:flex-row items-center justify-between">
 
+          <div className="w-full md:w-1/2 text-white space-y-4 md:space-y-6 text-center md:text-left">
+            <h1 className="text-2xl md:text-5xl font-bold">
+              Hello, I'm a{" "}
+              <span className="ml-2">
+                <ReactTyped
+                  className="bg-gradient-to-r from-amber-400 to-rose-300 bg-clip-text text-transparent"
+                  strings={["Developer", "Programmer", "Coder"]}
+                  typeSpeed={50}
+                  backSpeed={60}
+                  loop={true}
+                />
+              </span>
+            </h1>
+            <p className="text-sm md:text-lg leading-relaxed px-4 md:px-0">
+              I'm a recent B-Tech graduate specializing in Computer Science & Engineering with hands-on experience in Java, C/C++, JavaScript, ReactJS, HTML, CSS, and MySQL. I enjoy building solutions with real-world impact.
             </p>
+
+            {/* CTA Buttons */}
+            <div className="flex flex-col md:flex-row justify-center md:justify-start space-y-4 md:space-y-0 md:space-x-4 mt-6">
+              <a
+                href="/project"
+                className="bg-yellow-400 text-red-700 px-4 py-2 md:px-6 md:py-3 rounded-full font-semibold text-sm md:text-md hover:bg-yellow-300 transition ease-in-out duration-300"
+              >
+                View Projects
+              </a>
+              <a
+                href="/contact"
+                className="border-2 border-white text-white px-4 py-2 md:px-6 md:py-3 rounded-full font-semibold text-sm md:text-md hover:bg-white hover:text-red-700 transition ease-in-out duration-300"
+              >
+                Contact Me
+              </a>
+            </div>
           </div>
-          <div className="md:w-1/2 md:ml-48 md:mt-20 mt-8 order-1" >
+
+          {/* Right Section with Profile Image */}
+          <div className="w-full md:w-1/2 flex justify-center mt-10 md:mt-0">
             <img
               src="/MyImage.png"
-              className="rounded-full md:w-[450px] md:h-[450px] shadow-2xl shadow-red-600"
+              className="rounded-full w-48 h-48 md:w-80 md:h-80 shadow-2xl shadow-yellow-400 hover:scale-105 transition-transform duration-300 ease-in-out"
               alt="profile image"
             />
           </div>
         </div>
       </div>
-      <hr />
     </>
   );
 }

@@ -34,66 +34,65 @@ function Projects() {
       link: '',
       code: "",
     },
-    
-    
   ];
 
   const handleLinkClick = (url) => {
-    window.open(url, "_blank"); // This will open the link in a new tab
+    window.open(url, "_blank");
   };
 
   return (
+    <>
+    <div className="bg-gradient-to-r from-green-200 to-gray-400 flex">
     <div
       name="Portfolio"
-      className="max-w-screen-2xl container mx-auto px-4 md:px-20 mt-10"
+      className="p-5 max-w-screen-xl container mx-auto px-4 md:px-12 mt-20 "
     >
-      <div>
-        <br />
-        <br />
-        <h1 className=" text-2xl  text-center font-semibold">Featured Projects</h1>
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-3 my-5">
-          {cardItem.map(({ id, logo, name, details, link, code }) => (
-            <div
-              className="  md:w-[300px] md:h-[300px] border-[2px] rounded-lg shadow-lg shadow-slate-700 p-1 cursor-pointer hover:scale-110 duration-300"
-              key={id}>
-
-              <div className="flex justify-center">
+      <h1 className="text-2xl text-center font-semibold mb-8">Featured Projects</h1>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 bgwh">
+        {cardItem.map(({ id, logo, name, details, link, code }) => (
+          <div
+            className="border-2 rounded-lg shadow-lg p-4 cursor-pointer hover:scale-105 transition-transform duration-300 bg-white shadow-slate-700"
+            key={id}
+          >
+            <div>
               <img
                 src={logo}
-                className="w-[213px] h-[140px] p-1 border-[2px] "
+                className="w-[324px] h-[140px] object-contain"
                 alt={name}
               />
-              </div>
-
-              <div>
-                <div className="flex px-2 font-bold text-xl mb-2 justify-center bg-gradient-to-tr from-red-500 via-violet-600 to-slate-800 text-white">{name}</div>
-                <p className="flex px-2 text-lg justify-center bg-gradient-to-tr from-red-500 via-violet-600 to-slate-800 bg-clip-text text-transparent font-sans font-semibold">{details}</p>
-              </div>
-              <div className=" flex px-6 py-4 space-x-3 justify-around">
-                
-                {link && (
-                  <button
-                    onClick={() => handleLinkClick(link)}
-                    className="bg-blue-500 hover:bg-blue-700 text-white font-bold px-4 py-2 rounded"
-                  >
-                    Link
-                  </button>
-                )}
-                
-                {code && (
-                  <button
-                    onClick={() => handleLinkClick(code)}
-                    className="bg-green-500 hover:bg-green-700 text-white font-bold px-4 py-2 rounded"
-                  >
-                    Code
-                  </button>
-                )}
-              </div>
             </div>
-          ))}
-        </div>
+
+            <div>
+              <div className="flex justify-center bg-gradient-to-tr from-red-500 via-violet-600 to-slate-800 text-white text-lg font-bold py-1">
+                {name}
+              </div>
+              <p className="text-center text-gray-700 font-semibold mt-2">{details}</p>
+            </div>
+            
+            <div className="flex justify-center space-x-4 mt-4">
+              {link && (
+                <button
+                  onClick={() => handleLinkClick(link)}
+                  className="bg-blue-500 hover:bg-blue-700 text-white font-bold px-4 py-2 rounded"
+                >
+                  Link
+                </button>
+              )}
+              {code && (
+                <button
+                  onClick={() => handleLinkClick(code)}
+                  className="bg-green-500 hover:bg-green-700 text-white font-bold px-4 py-2 rounded"
+                >
+                  Code
+                </button>
+              )}
+            </div>
+          </div>
+        ))}
       </div>
     </div>
+    </div>
+    </>
   );
 }
 
