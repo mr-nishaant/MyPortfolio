@@ -1,6 +1,8 @@
 import React from "react";
 import { FaMailBulk } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
+import { VscGithub } from "react-icons/vsc";
+
 import {
   FaFacebook,
   FaTwitter,
@@ -23,6 +25,8 @@ function Footer() {
               <FaLinkedinIn size={24} className=" cursor-pointer" onClick={() => handleLinkClick("https://linkedin.com/in/nishaantk")}/>
               <FaFacebook size={24} className=" cursor-pointer" onClick={() => handleLinkClick("https://www.facebook.com/nishant.nsit.in")}/>
               <FaInstagram size={24} className=" cursor-pointer" onClick={() => handleLinkClick("https://www.instagram.com/mr.nishant.mishra")} />
+              <VscGithub className=" cursor-pointer" onClick={() => handleLinkClick("https://github.com/mr-nishaant")}/>
+
             </div>
             <div className="mt-8 border-t border-gray-700 pt-8 flex flex-col items-center">
               <p className="text-m">
