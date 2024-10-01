@@ -30,11 +30,11 @@ function Home() {
               real-world impact.
             </p>
 
-
+            {/* CTA Buttons */}
             <div className="flex flex-col md:flex-row justify-center md:justify-start space-y-4 md:space-y-0 md:space-x-4 mt-6">
               <NavLink to={"/Project"}>
                 <a
-                  className="bg-yellow-400 text-red-700 px-4 py-2 md:px-6 md:py-3 rounded-full font-semibold text-sm md:text-md hover:bg-yellow-300 transition ease-in-out duration-300"
+                  className=" border-2 border-yellow-400 bg-yellow-400 text-red-700 px-4 py-2 md:px-6 md:py-3 rounded-full font-semibold text-sm md:text-md hover:bg-yellow-300 transition ease-in-out duration-300"
                 >
                   View Projects
                 </a>
