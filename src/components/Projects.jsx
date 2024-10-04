@@ -20,11 +20,11 @@ function Projects() {
     },
     {
       id: 3,
-      logo: "https://cdn-icons-png.flaticon.com/512/9584/9584876.png",
+      logo: "/weather.png",
       name: "Mausam",
       details: "A Weather Forecasting Website",
-      link: 'https://google.com',
-      code: "google.com",
+      link: 'https://mausamin.netlify.app/',
+      code: "https://github.com/mr-nishaant/Weather_App",
     },
     {
       id: 4,
