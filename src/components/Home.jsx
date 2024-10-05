@@ -34,13 +34,13 @@ function Home() {
             <div className="flex flex-row justify-center md:justify-start space-x-4 mt-6">
               <NavLink
                 to="/Project"
-                className="border-2 border-yellow-400 bg-yellow-400 text-red-700 px-4 py-2 md:px-6 md:py-3 rounded-full font-semibold text-sm md:text-md hover:bg-yellow-300 transition ease-in-out duration-300 hover:scale-110"
+                className="border-2 border-yellow-400 bg-yellow-400 text-red-700 px-4 py-2 md:px-6 md:py-3 rounded-full font-semibold text-sm md:text-md hover:bg-yellow-300 transition ease-in-out duration-300"
               >
                 View Projects
               </NavLink>
               <NavLink
                 to="/contact"
-                className="border-2 border-white text-white px-4 py-2 md:px-6 md:py-3 rounded-full font-semibold text-sm md:text-md hover:bg-white hover:text-red-700 transition ease-in-out duration-300 hover:scale-110"
+                className="border-2 border-white text-white px-4 py-2 md:px-6 md:py-3 rounded-full font-semibold text-sm md:text-md hover:bg-white hover:text-red-700 transition ease-in-out duration-300"
               >
                 Contact Me
               </NavLink>
