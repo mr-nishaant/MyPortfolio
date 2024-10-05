@@ -31,24 +31,21 @@ function Home() {
             </p>
 
             {/* CTA Buttons */}
-            <div className="flex flex-col md:flex-row justify-center md:justify-start space-y-4 md:space-y-0 md:space-x-4 mt-6">
-              <NavLink to={"/Project"}>
-                <a
-                  className=" border-2 border-yellow-400 bg-yellow-400 text-red-700 px-4 py-2 md:px-6 md:py-3 rounded-full font-semibold text-sm md:text-md hover:bg-yellow-300 transition ease-in-out duration-300"
-                >
-                  View Projects
-                </a>
+            <div className="flex flex-row justify-center md:justify-start space-x-4 mt-6">
+              <NavLink
+                to="/Project"
+                className="border-2 border-yellow-400 bg-yellow-400 text-red-700 px-4 py-2 md:px-6 md:py-3 rounded-full font-semibold text-sm md:text-md hover:bg-yellow-300 transition ease-in-out duration-300"
+              >
+                View Projects
               </NavLink>
-              <NavLink to={"/contact"}>
-                <a
-                  className="border-2 border-white text-white px-4 py-2 md:px-6 md:py-3 rounded-full font-semibold text-sm md:text-md hover:bg-white hover:text-red-700 transition ease-in-out duration-300"
-                >
-                  Contact Me
-                </a>
+              <NavLink
+                to="/contact"
+                className="border-2 border-white text-white px-4 py-2 md:px-6 md:py-3 rounded-full font-semibold text-sm md:text-md hover:bg-white hover:text-red-700 transition ease-in-out duration-300"
+              >
+                Contact Me
               </NavLink>
             </div>
           </div>
-
 
           <div className="w-full md:w-1/2 flex justify-center mt-10 md:mt-0">
             <img
