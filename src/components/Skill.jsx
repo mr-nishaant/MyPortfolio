@@ -36,8 +36,8 @@ function Skill() {
 
   return (
     <div
-      name="Experiance"
-      className="max-w-screen-2xl container mx-auto px-4 sm:px-2 md:px-20 my-16 bg-gradient-to-r from-green-200 to-gray-400"
+      name="Skills"
+      className="max-w-screen-2xl container mx-auto px-4 sm:px-2 md:px-20 mt-16 pb-5 bg-gradient-to-r from-green-200 to-gray-400"
     >
       <div>
         <p><br /></p>
