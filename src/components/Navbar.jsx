@@ -74,7 +74,7 @@ function Navbar() {
         {/* mobile navbar */}
         {menu && (
           <div className="bg-white">
-            <ul className="md:hidden flex flex-col h-screen items-center justify-center space-y-3 text-xl">
+            <ul className="md:hidden flex flex-col h-screen items-center justify-center space-y-3 text-xl font-serif">
               {navItems.map(({ id, text }) => (
                 <li
                   className="hover:scale-105 duration-200 font-semibold cursor-pointer"
