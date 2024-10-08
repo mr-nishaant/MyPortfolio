@@ -42,16 +42,16 @@ function Projects() {
 
   return (
     <>
-    <div className="bg-gradient-to-r from-green-200 to-gray-400 flex">
+    <div className="bg-gradient-to-r from-slate-900 to-slate-700 flex">
     <div
-      name="Portfolio"
+      name="Projects"
       className="p-5 max-w-screen-xl container mx-auto px-4 md:px-12 mt-20 "
     >
-      <h1 className="text-2xl text-center font-semibold mb-8">Featured Projects</h1>
+      <h1 className="text-2xl text-center font-semibold mb-8 text-slate-300">Featured Projects</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 bgwh">
         {cardItem.map(({ id, logo, name, details, link, code }) => (
           <div
-            className="border-2 rounded-lg shadow-lg p-4 cursor-pointer hover:scale-105 transition-transform duration-300 bg-white shadow-slate-700"
+            className="border-2 rounded-lg shadow-lg p-4 cursor-pointer hover:scale-105 transition-transform duration-300 bg-white shadow-blue-500"
             key={id}
           >
             <div>

@@ -39,10 +39,10 @@ function Contact() {
   }
 
   return (
-    <div className="bg-gradient-to-r from-blue-200 to-cyan-200 py-8 sm:py-16">
+    <div className="bg-gradient-to-r from-slate-900 to-slate-700 py-8 sm:py-16">
       <div className=" pt-14 max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 px-4 sm:px-8">
 
-        <div className="bg-white shadow-2xl shadow-slate-700 rounded-xl p-8 relative lg:ml-24">
+        <div className="bg-white shadow-2xl shadow-purple-600 rounded-xl p-8 relative lg:ml-24">
           <h2 className="text-2xl sm:text-4xl font-bold text-gray-900 mb-6 sm:mb-8">Contact Information</h2>
           <p className="text-base sm:text-lg text-gray-600 mb-4">
             Feel free to get in touch with me. I'm available on the following platforms:
@@ -80,7 +80,7 @@ function Contact() {
           <div className="absolute -top-8 sm:-top-12 -right-8 sm:-right-12 bg-gradient-to-r from-violet-200 to-pink-200 shadow-lg shadow-slate-500 rounded-full w-24 h-24 sm:w-32 sm:h-32 z-0"></div>
         </div>
 
-        <div className="bg-white shadow-2xl shadow-slate-700 rounded-xl p-8 relative lg:mr-24">
+        <div className="bg-white shadow-2xl shadow-purple-600 rounded-xl p-8 relative lg:mr-24">
           <h2 className="text-2xl sm:text-4xl font-bold text-gray-900 mb-6 sm:mb-8">Contact Us</h2>
           <form onSubmit={onSubmit} className="space-y-6">
             <div className="form-group">

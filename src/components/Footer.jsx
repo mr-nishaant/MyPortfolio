@@ -17,10 +17,10 @@ function Footer() {
   return (
     <>
       <hr />
-      <footer className="py-12 bg-white">
+      <footer className="py-12 bg-gradient-to-r from-slate-700 to-slate-500">
         <div className="max-w-screen-2xl container mx-auto px-4 md:px-20">
           <div className=" flex flex-col items-center justify-center">
-            <div className="flex space-x-4 text-blue-700">
+            <div className="flex space-x-4 text-green-400">
               <SiGmail size={30} className=" cursor-pointer  hover:text-red-400" onClick={() => handleLinkClick("mailto:nishant01210@gmail.com")} />
               <FaLinkedinIn size={30} className=" cursor-pointer  hover:text-red-400" onClick={() => handleLinkClick("https://linkedin.com/in/nishaantk")}/>
               <FaFacebook size={30} className=" cursor-pointer  hover:text-red-400" onClick={() => handleLinkClick("https://www.facebook.com/nishant.nsit.in")}/>

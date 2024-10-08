@@ -7,7 +7,7 @@ function Home() {
     <>
       <div
         name="Home"
-        className="min-h-screen bg-gradient-to-r from-red-500 via-red-600 to-red-700 flex items-center px-4"
+        className="min-h-screen bg-gradient-to-r from-slate-900 to-slate-700 flex items-center px-4"
       >
         <div className="container mx-auto flex flex-col md:flex-row items-center justify-between">
           <div className="w-full md:w-1/2 text-white space-y-4 md:space-y-6 text-center md:text-left md:px-16">

@@ -31,15 +31,15 @@ function Navbar() {
   ];
   return (
     <>
-      <div className="max-w-screen-2xl container mx-auto px-4 md:px-20 h-16 shadow-md fixed top-0 left-0 right-0 z-50 bg-gradient-to-r from-teal-400 to-yellow-200">
+      <div className="max-w-screen-2xl container mx-auto px-4 md:px-20 h-16 shadow-md fixed top-0 left-0 right-0 z-50 bg-gradient-to-r from-slate-700 to-slate-500">
         
         <div className="flex justify-between items-center h-16 ">
           <NavLink to={"/"}>
             <div className=" flex space-x-2">
-              <h1 className="font-semibold text-xl cursor-pointer">
-                Nishant<span className="text-blue-500 text-2xl">Kumar</span>
+              <h1 className="font-semibold text-xl cursor-pointer text-red-200">
+                Nishant <span className="text-blue-200 text-2xl">Kumar</span>
                 <p className=" text-sm"><ReactTyped
-                  className="text-red-700 font-bold"
+                  className="bg-gradient-to-tl from-slate-300 to-slate-400 bg-clip-text text-transparent font-bold"
                   strings={["Frontend Developer", "Programmer", "Java Developer"]}
                   typeSpeed={40}
                   backSpeed={50}
@@ -53,7 +53,7 @@ function Navbar() {
             <ul className="hidden md:flex space-x-8">
               {navItems.map(({ id, text }) => (
                 <li
-                  className="hover:scale-105 hover:text-blue-600 duration-200 cursor-pointer font-semibold "
+                  className="hover:scale-105 hover:text-blue-200 duration-200 cursor-pointer font-semibold "
                   key={id}
                 >
                   <NavLink

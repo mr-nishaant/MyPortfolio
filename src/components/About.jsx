@@ -3,12 +3,12 @@ import { FaGraduationCap, FaCode, FaBriefcase, FaCertificate } from "react-icons
 
 function About() {
   return (
-    <div className="bg-gradient-to-r from-green-200 to-gray-400">
+    <div className="bg-gradient-to-r from-slate-900 to-slate-700">
       <div
         name="About"
         className="max-w-screen-xl mx-auto px-6 md:px-10 lg:px-16 py-16 pt-20 "
       >
-        <div className=" bg-white p-8 rounded-2xl shadow-2xl shadow-red-600">
+        <div className=" bg-white p-8 rounded-2xl shadow-2xl shadow-fuchsia-200">
 
           <div className="text-center mb-12">
             <h1 className="text-3xl md:text-4xl font-extrabold text-gray-900 mb-4">About Me</h1>
