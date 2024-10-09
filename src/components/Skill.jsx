@@ -53,7 +53,7 @@ function Skill() {
       <div>
         <p><br /></p>
         <h1 className="flex justify-center text-3xl font-bold mb-5 text-blue-200">Skills</h1>
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-7 my-3 mx-auto">
+        <div className="ml-5 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-7 my-3 mx-auto">
           {cardItem.map(({ id, logo, name }) => (
             <div
               className=" bg-white flex flex-col items-center justify-center border-[2px] rounded-full w-[120px] h-[120px] sm:w-[150px] sm:h-[150px] md:w-[200px] md:h-[200px] shadow-lg shadow-red-700 p-1 cursor-pointer hover:scale-110 duration-300"
