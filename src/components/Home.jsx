@@ -34,7 +34,7 @@ function Home() {
             <div className="flex flex-row justify-center md:justify-start space-x-4 mt-6">
               <NavLink
                 to="/Project"
-                className="border-2 border-yellow-400 bg-yellow-400 text-red-700 px-4 py-2 md:px-6 md:py-3 rounded-full font-semibold text-sm md:text-md hover:bg-yellow-300 transition ease-in-out duration-300"
+                className="border-2 border-yellow-400 bg-yellow-400 text-red-900 px-4 py-2 md:px-6 md:py-3 rounded-full font-semibold text-sm md:text-md hover:bg-yellow-300 transition ease-in-out duration-300"
               >
                 View Projects
               </NavLink>
@@ -50,7 +50,7 @@ function Home() {
           <div className="w-full md:w-1/2 flex justify-center mt-10 md:mt-0">
             <img
               src="/MyImage.png"
-              className="rounded-full w-48 h-48 md:w-80 md:h-80 shadow-2xl shadow-yellow-400 hover:scale-105 transition-transform duration-300 ease-in-out"
+              className="rounded-full w-48 h-48 md:w-80 md:h-80 shadow-xl border-4 border-x-red-500 border-y-yellow-500 shadow-black hover:scale-105 transition-transform duration-300 ease-in-out hover:animate-spin "
               alt="profile image"
             />
           </div>

@@ -51,7 +51,7 @@ function Projects() {
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 bgwh">
         {cardItem.map(({ id, logo, name, details, link, code }) => (
           <div
-            className="border-2 rounded-lg shadow-lg p-4 cursor-pointer hover:scale-105 transition-transform duration-300 bg-white shadow-blue-500"
+            className="rounded-lg shadow-lg p-4 cursor-pointer hover:scale-105 transition-transform duration-300 bg-gray-900 shadow-blue-300"
             key={id}
           >
             <div>
@@ -66,7 +66,7 @@ function Projects() {
               <div className="flex justify-center bg-gradient-to-tr from-red-500 via-violet-600 to-slate-800 text-white text-lg font-bold py-1">
                 {name}
               </div>
-              <p className="text-center text-gray-700 font-semibold mt-2">{details}</p>
+              <p className="text-center text-gray-300 font-semibold mt-2">{details}</p>
             </div>
             
             <div className="flex justify-center space-x-4 mt-4">
