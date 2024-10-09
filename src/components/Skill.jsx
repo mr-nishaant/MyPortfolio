@@ -37,6 +37,11 @@ function Skill() {
       logo: "https://miro.medium.com/v2/resize:fit:632/1*KTAstxDm8yEG17u94avrXw.png",
       name: "Tailwind CSS",
     },
+    {
+      id: 8,
+      logo: "https://www.svgrepo.com/show/303251/mysql-logo.svg",
+      name: "MySQL",
+    },
     
   ];
 
