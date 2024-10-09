@@ -4,13 +4,13 @@ function Skill() {
   const cardItem = [
     {
       id: 1,
-      logo: "https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_1280.png",
-      name: "HTML",
+      logo: "https://static-00.iconduck.com/assets.00/react-icon-512x512-u6e60ayf.png",
+      name: "ReactJS",
     },
     {
       id: 2,
-      logo: "https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_960_720.png",
-      name: "CSS",
+      logo: "https://1000logos.net/wp-content/uploads/2020/09/JavaScript-Logo.jpg",
+      name: "JavaScript",
     },
     {
       id: 3,
@@ -19,19 +19,25 @@ function Skill() {
     },
     {
       id: 4,
-      logo: "https://1000logos.net/wp-content/uploads/2020/09/JavaScript-Logo.jpg",
-      name: "JavaScript",
-    },
-    {
-      id: 5,
       logo: "https://download.logo.wine/logo/C%2B%2B/C%2B%2B-Logo.wine.png",
       name: "C/C++",
     },
     {
-      id: 6,
-      logo: "https://static-00.iconduck.com/assets.00/react-icon-512x512-u6e60ayf.png",
-      name: "ReactJS",
+      id: 5,
+      logo: "https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_1280.png",
+      name: "HTML",
     },
+    {
+      id: 6,
+      logo: "https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_960_720.png",
+      name: "CSS",
+    },
+    {
+      id: 7,
+      logo: "https://miro.medium.com/v2/resize:fit:632/1*KTAstxDm8yEG17u94avrXw.png",
+      name: "Tailwind CSS",
+    },
+    
   ];
 
   return (
