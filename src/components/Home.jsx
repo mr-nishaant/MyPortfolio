@@ -12,7 +12,7 @@ function Home() {
         <div className="container mx-auto flex flex-col md:flex-row items-center justify-between">
           <div className="w-full md:w-1/2 text-white space-y-4 md:space-y-6 text-center md:text-left md:px-16">
             <h1 className="text-2xl md:text-5xl font-bold">
-              Hello, I'm Nishant
+              Hi, I'm Nishant
               <div className=" pt-2">
                 <ReactTyped
                   className="bg-gradient-to-r from-amber-400 to-rose-300 bg-clip-text text-transparent"
