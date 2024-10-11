@@ -12,8 +12,8 @@ function Home() {
         <div className="container mx-auto flex flex-col md:flex-row items-center justify-between">
           <div className="w-full md:w-1/2 text-white space-y-4 md:space-y-6 text-center md:text-left md:px-16">
             <h1 className="text-2xl md:text-5xl font-bold">
-              Hello, I'm a{" "}
-              <span className="ml-2">
+              Hello, I'm Nishant
+              <div className=" pt-2">
                 <ReactTyped
                   className="bg-gradient-to-r from-amber-400 to-rose-300 bg-clip-text text-transparent"
                   strings={["Developer", "Programmer", "Coder"]}
@@ -21,7 +21,7 @@ function Home() {
                   backSpeed={65}
                   loop={true}
                 />
-              </span>
+              </div>
             </h1>
             <p className="text-sm md:text-lg leading-relaxed px-4 md:px-0">
               I'm a recent B-Tech graduate specializing in Computer Science &
