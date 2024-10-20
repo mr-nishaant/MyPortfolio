@@ -6,34 +6,35 @@ function Projects() {
       id: 1,
       logo: "/portfolio.png",
       name: "ShowCaseMe",
-      details: "A Personal Portfolio Website",
+      details: "Personal Portfolio Website",
       link: 'https://nishaant.netlify.app/',
       code: "https://github.com/mr-nishaant/MyPortfolio",
     },
     {
       id: 2,
+      logo: "/FlicInsights.png",
+      name: "Flic Insights",
+      details: "Movie Details and Insights Website",
+      link: 'https://flicinsights.netlify.app/',
+      code: "https://github.com/mr-nishaant/Flick_Insights-Movie_Details",
+    },
+    {
+      id: 3,
       logo: "/currency.png",
-      name: "CashFlipper",
-      details: "A Realtime Currency Converter",
+      name: "Cash Flipper",
+      details: "Realtime Currency Converter",
       link: 'https://currencyconvt.netlify.app/',
       code: "https://github.com/mr-nishaant/currencyConverter",
     },
     {
-      id: 3,
+      id: 4,
       logo: "/weather.png",
       name: "Mausam",
-      details: "A Weather Forecasting Website",
+      details: "Weather Forecasting Website",
       link: 'https://mausamin.netlify.app/',
       code: "https://github.com/mr-nishaant/Weather_App",
     },
-    {
-      id: 4,
-      logo: "https://cdn-icons-png.flaticon.com/512/9584/9584876.png",
-      name: "Mood",
-      details: "An Online Music Player",
-      link: '',
-      code: "",
-    },
+    
   ];
 
   const handleLinkClick = (url) => {
