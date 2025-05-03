@@ -16,7 +16,7 @@ function Home() {
               <div className=" pt-2">
                 <ReactTyped
                   className="bg-gradient-to-r from-amber-400 to-rose-300 bg-clip-text text-transparent"
-                  strings={["Developer", "Programmer", "Coder"]}
+                  strings={["QA Engineer", "Developer", "Programmer"]}
                   typeSpeed={60}
                   backSpeed={65}
                   loop={true}
@@ -24,10 +24,11 @@ function Home() {
               </div>
             </h1>
             <p className="text-sm md:text-lg leading-relaxed px-4 md:px-0">
-              I'm a recent B-Tech graduate specializing in Computer Science &
-              Engineering with hands-on experience in Java, C/C++, JavaScript,
-              ReactJS, HTML, CSS, and MySQL. I enjoy building solutions with
-              real-world impact.
+            I'm a recent B.Tech graduate in Computer Science & Engineering with practical 
+            experience in Manual Testing, Java, JavaScript, ReactJS, HTML, CSS, and MySQL.
+            I have a strong passion for building impactful, real-world solutions and ensuring 
+            their quality through rigorous testing. I thrive in collaborative environments and 
+            am eager to contribute to innovative development and QA teams
             </p>
 
             {/* CTA Buttons */}
