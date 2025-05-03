@@ -40,7 +40,7 @@ function Navbar() {
                 Nishant <span className="text-blue-200 text-2xl">Kumar</span>
                 <p className=" text-sm"><ReactTyped
                   className="bg-gradient-to-tl from-slate-300 to-slate-400 bg-clip-text text-transparent font-bold"
-                  strings={["Frontend Developer", "Programmer", "Java Developer"]}
+                  strings={["Frontend Developer", "QA Engineer", "Java Developer"]}
                   typeSpeed={40}
                   backSpeed={50}
                   loop={true}/></p>

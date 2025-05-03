@@ -4,13 +4,13 @@ function Skill() {
   const cardItem = [
     {
       id: 1,
-      logo: "https://static-00.iconduck.com/assets.00/react-icon-512x512-u6e60ayf.png",
-      name: "ReactJS",
+      logo: "https://praxware.com/img/why-manual.png",
+      name: "Manual Testing",
     },
     {
       id: 2,
-      logo: "https://1000logos.net/wp-content/uploads/2020/09/JavaScript-Logo.jpg",
-      name: "JavaScript",
+      logo: "https://www.vlrtraining.in/wp-content/uploads/2020/12/logo-selenium-768x876.png",
+      name: "Selenium",
     },
     {
       id: 3,
@@ -19,29 +19,40 @@ function Skill() {
     },
     {
       id: 4,
-      logo: "https://download.logo.wine/logo/C%2B%2B/C%2B%2B-Logo.wine.png",
-      name: "C/C++",
+      logo: "https://static-00.iconduck.com/assets.00/react-icon-512x512-u6e60ayf.png",
+      name: "ReactJS",
     },
     {
       id: 5,
+      logo: "https://1000logos.net/wp-content/uploads/2020/09/JavaScript-Logo.jpg",
+      name: "JavaScript",
+    },
+    
+    {
+      id: 6,
       logo: "https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_1280.png",
       name: "HTML",
     },
     {
-      id: 6,
+      id: 7,
       logo: "https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_960_720.png",
       name: "CSS",
     },
     {
-      id: 7,
+      id: 8,
       logo: "https://miro.medium.com/v2/resize:fit:632/1*KTAstxDm8yEG17u94avrXw.png",
       name: "Tailwind CSS",
     },
     {
-      id: 8,
+      id: 9,
       logo: "https://www.svgrepo.com/show/303251/mysql-logo.svg",
       name: "MySQL",
     },
+    {
+      id: 10,
+      logo: "https://cdn.worldvectorlogo.com/logos/jira-1.svg",
+      name: "Jira"
+    }
     
   ];
 
