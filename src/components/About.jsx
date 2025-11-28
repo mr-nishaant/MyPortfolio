@@ -1,4 +1,3 @@
-import React from "react";
 import { FaGraduationCap, FaCode, FaBriefcase, FaCertificate } from "react-icons/fa";
 
 function About() {
